@@ -1,10 +1,10 @@
 ---
 title: Coordination Scaling Standard
-document_id: standards-3_0-coordination-scaling-0_1_0.md
+document_id: standards-3_0-coordination-scaling-0_1_5.md
 ring: Standards (3.0)
-version: v0.1.1
-date: 2026-04-17
-status: Normative. Seventh Tensegrity Compressive Standard in the Coordination Structural Integrity Suite. Radius 5 through Radius 150 specifications are normative. Radius 500 and Radius 1500 specifications are provisional pending validation through cohort experience at those thresholds.
+version: v0.1.5
+date: 2026-06-22
+status: Normative. Seventh Tensegrity Compressive Standard in the Coordination Structural Integrity Suite. Radius 5 through Radius 150 specifications are normative. Radius 500 and Radius 1500 specifications are provisional pending validation through cohort experience at those thresholds. The affected-party reach axis (Section 10) is provisional pending cohort validation, alongside the Radius 500 and Radius 1500 provisional specifications.
 abbreviation: CSS
 ---
 
@@ -22,12 +22,12 @@ A coordination system conformant with this standard does not guarantee coordinat
 
 Scale-blindness is a precision deficit. A specification of structural conditions that does not account for scale is imprecise: it implies conditions hold across all scales when they do not. This standard is the instrument that makes scale-precision a conformance obligation.
 
-**Typological declaration** (Descriptive Typology Map v0.1.1)
+**Typological declaration** (description classes per the Terminology Conventions Reference)
 
 *Operative classes*
 - Structural-mechanical: this standard specifies structural conditions (minimum conditions, maximum conditions, threshold crossing requirements, sequential build requirement, founding window architecture) and assesses whether those conditions are embedded in a coordination unit's architecture. Primary vocabulary is structural specification and structural presence or absence.
 - Relational-topological: this standard addresses the relational substrate of coordination (Dunbar-scale thresholds, sympathy networks, role and capacity dependencies, reputation network reach) and assesses coordination capacity as a function of relational network structure.
-- Temporal-dynamic: this standard addresses threshold crossings as developmental events (founding window, sequential build requirement, born-below condition, trigger conditions for approach detection) and requires structural anticipation across a coordination unit's developmental arc.
+- Temporal-dynamic: this standard addresses threshold crossings as developmental events (founding window, sequential build requirement, born-below condition, trigger conditions for approach detection) and requires structural anticipation across a coordination unit's developmental arc. It deploys the temporal-dynamic class as inherited vocabulary from an external temporal instrument that owns the class definition (the founding window as a one-shot correction-window, sequential build as phase sequencing, born-below as unbounded loop latency, trigger conditions as bounded detection latency), rather than constituting a competing operative claim on the class. The frequency-dynamic sub-aspect is outside this standard's scope.
 
 *Boundary classes*
 - Felt-experience: this standard assesses whether structural conditions are present at each scale threshold, not whether coordination feels appropriate, fair, or satisfying to participants. Structural accessibility of minimum conditions is within scope; subjective experience of operating under them is not.
@@ -39,6 +39,8 @@ Scale-blindness is a precision deficit. A specification of structural conditions
 
 | Version | Date | Notes |
 |---------|------|-------|
+| v0.1.5 | 2026-06-22 | Typological declaration repaired in the combined keystone-and-boundary sweep: header cites the description classes per the Terminology Conventions Reference (not a Map version); the temporal-dynamic operative entry, which had declared the class with no cession (an apparent collision with the external temporal instrument that owns the class definition), now states it deploys the class as inherited vocabulary (founding window as one-shot correction-window, sequential build as phase sequencing, born-below as unbounded loop latency, trigger conditions as bounded detection latency) rather than a competing operative claim; frequency-dynamic out of scope. No normative change. |
+| v0.1.4 | 2026-06-13 | Affected-party reach axis added (provisional) as Section 10: a second scale axis orthogonal to the six Radii, specifying the unit's scale relationship to the parties its coordination affects but who are not members. Functional reach ceiling (graduated, context-dependent, no single numeric threshold; Dahl and Tufte grounding); above the ceiling the affected-party proxy or guardian channel specified in the Structural Power Obligation Standard Section 4.1 is a minimum condition, not disclosure-satisfiable. Two constructs added to Section 2 (Affected-Party Reach, Reach Ceiling). Sections 10, 11, 12 renumbered to 11, 12, 13; the four live internal "Section 10" references (Nominal Effective Radius construct, CSS-Assessed, and two in CSS-Instrumented) updated to "Section 11". Frontmatter version reconciled from a stale v0.1.1 to v0.1.4 (changelog had already recorded v0.1.2 and v0.1.3 content the frontmatter did not reflect; filename and document_id brought from 0_1_0 to 0_1_4). Part of the three-standard affected-party scale-trigger seam with the Structural Power Obligation Standard and CRAFT. |
 | v0.1.3 | 2026-04-17 | Primary detection signals added to maximum conditions at Radius 5, 15, 50, and 150 (IACS pattern). Threshold approach signal note added to Section 10 (gradient vs. binary threshold). De-crossing and conflicting indicator resolution rules added to Section 3. Contextual baseline statement added to Section 10 (PFDS Corollary 9 requirement; Dunbar thresholds are research-derived approximations; functional questions are primary instrument). |
 | v0.1.2 | 2026-04-17 | Developmental alignment distribution removed from Effective Radius factor list (proto-Frame Language sensemaking; belongs in Frame Language, not as a structural Radius input). Nominal and robust Effective Radius defined as distinct constructs. CSS-Instrumented monitoring requirement replaced with named trigger conditions approach; founding window activation criterion added (opens when first trigger fires). Contribution topology noted as PoC implementation path for robust Effective Radius and maximum conditions assessment. Typological declaration added in correct PFDS form (Descriptive Typology Map v0.1.1). Section 10 factor list explicitly linked to functional questions as their operative instrument. Section 12 stale Board conditions reference corrected. |
 | v0.1.1 | 2026-04-17 | Board and Dome replaced throughout with Minimum Conditions and Maximum Conditions. Board/Dome are LayerCake visualization vocabulary and do not belong in normative standards text. Four Batteries language removed from Radius 150 minimum conditions. |
@@ -64,7 +66,7 @@ Radius 5 through Radius 150 specifications are normative. Radius 500 and Radius 
 
 **Effective Radius.** The Radius at which a coordination unit is actually operating, determined by an aggregate of at minimum: the number of members, the frequency and quality of their interaction, the depth of shared context, and the communication medium mix. Effective Radius is not headcount alone. A group of 150 members with strong shared context and high-frequency interaction may sustain Radius 150 coordination functions. A group of 80 members with thin shared context and low interaction quality may not. The minimum conditions in this standard apply to the effective Radius, not the nominal headcount.
 
-**Nominal Effective Radius.** The Effective Radius a coordination unit presents with its full membership present. This is the standard output of a Section 10 assessment under normal operating conditions.
+**Nominal Effective Radius.** The Effective Radius a coordination unit presents with its full membership present. This is the standard output of a Section 11 assessment under normal operating conditions.
 
 **Robust Effective Radius.** The threshold a coordination unit can sustain under worst-case single departure: the highest Radius at which minimum conditions would still hold if the highest-coordination-weight individual left. If any minimum condition for a crossed threshold would fail on a single departure, the robust Effective Radius is below the nominal Effective Radius. The gap between nominal and robust Effective Radius measures structural fragility due to coordination weight concentration. For organizations using PoC infrastructure, contribution topology assessment provides the instrument for this determination.
 
@@ -77,6 +79,10 @@ Radius 5 through Radius 150 specifications are normative. Radius 500 and Radius 
 **Founding window.** The period before a threshold crossing during which the minimum conditions for the next Radius can be installed most effectively. The founding window closes at the crossing. Installing minimum conditions after the crossing is structurally possible but is opposed by the coordination conditions their absence produces. Installing minimum conditions during the crisis that their absence creates produces poorly designed specifications. The standard requires that minimum conditions for each threshold be installed before the crossing.
 
 **Born-below condition.** A coordination unit can begin its existence below the effective Radius its coordination purpose requires, not through insufficient headcount but through insufficient shared context depth or interaction quality. A unit born below a threshold it is already operating above has never had the minimum conditions for that threshold. It does not experience the absence as loss; it experiences it as the normal condition of its existence. This is the most structurally dangerous configuration because there is no prior state to restore. Minimum conditions must be built from inside the broken state.
+
+**Affected-Party Reach.** The scale relationship between a coordination unit and the parties its coordination affects but who are not its members. Distinct from and orthogonal to the Radii, which measure the unit's relationship to its own members. A unit at any internal Radius can affect any number of external parties. Assessed by the functional reach question in Section 10, not by a numeric population count.
+
+**Reach Ceiling.** The functional threshold on the affected-party reach axis: the point above which the affected population exceeds what the unit can identify and reach through channels it maintains, so that the unit's knowledge of who is affected becomes impressionistic. Above the reach ceiling the affected-party proxy or guardian channel is a minimum condition. The reach ceiling is graduated and context-dependent; it is not a single universal number.
 
 ---
 
@@ -288,7 +294,45 @@ A Radius 1500 unit presents at its boundary: administrative independence from ex
 
 ---
 
-## Section 10: Effective Radius Assessment
+## Section 10: The Affected-Party Reach Axis (Provisional)
+
+*The following specification is provisional. It names a scale axis distinct from the six Radii and requires validation through cohort experience before normative status is appropriate. It specifies a functional threshold and a minimum condition; it does not pin the threshold to a numeric population count.*
+
+### 10.1 A Second Scale Axis
+
+The six Radii measure one scale relationship: the coordination unit's relationship to itself, to its own members and their states, roles, and reputations. A unit also stands in a scale relationship to the parties its coordination affects but who are not its members: the people, communities, or future parties who bear the consequences of what the unit does. This is a distinct axis, orthogonal to the Radii. A five-member unit at Radius 5 can affect a population of millions; a one-hundred-fifty-member unit at Radius 150 can affect ten. Internal scale and affected-party reach vary independently and are assessed independently.
+
+The affected-party reach axis applies the same break-at-scale logic the Radii apply internally. At Radius 50, informal knowledge of who can do what fails above roughly fifty members and formal role legibility becomes structurally necessary. The external parallel: below some reach, a unit can identify the parties it affects and reach them through channels it actually maintains; above that reach, the affected population exceeds what the unit can identify and reach, and the unit's knowledge of who is affected and how becomes impressionistic. The internal threshold counts do not transfer to this axis. The affected-party relationship has no single universal numeric ceiling: Dahl and Tufte, *Size and Democracy*, establish that the shift from direct to represented participation is a graduated, context-dependent tradeoff with no universal threshold. The ceiling is therefore specified as a functional question, not a number.
+
+### 10.2 The Reach Ceiling (functional)
+
+A unit determines its position on this axis by the following functional question:
+
+**Can the unit identify the parties its coordination affects and reach them through channels it actually maintains, whether directly or through a proxy or guardian it has structurally authorized; or does the affected population exceed what the unit can identify and reach, so that its knowledge of who is affected and how is impressionistic?** If the unit can identify and reach its affected parties: below the reach ceiling. If the affected population exceeds that and the unit's knowledge is impressionistic: the reach ceiling has been crossed.
+
+A unit past the reach ceiling that still believes it knows its affected parties by impression is in the born-below condition of this axis: it experiences a broken coordination function, the affected-party relationship having exceeded direct reach, as the normal condition of its operation. The impression of knowing is the structural fingerprint of the crossing, not evidence against it.
+
+### 10.3 Attack Surface
+
+Above the reach ceiling, a unit can assert that it serves or answers to its affected parties while the informal mechanism that would carry those parties' signals back to the unit has no reach. Harm to affected parties occurs without the signal reaching the unit, because the relationship that would carry it has exceeded direct knowledge. The attack surface is impressionistic affected-party knowledge: the unit cannot verify what it informally assumed it could verify about who is affected and how, in the same structural sense that state opacity opens the Radius 5 attack surface internally.
+
+### 10.4 Minimum Condition (Provisional)
+
+Above the reach ceiling, the unit must operate a structurally authorized proxy or guardian channel for its affected parties as a minimum condition. The Structural Power Obligation Standard Section 4.1 specifies the channel: proxy and guardian architecture for affected parties who exist but cannot participate through standard mechanisms, and conditions-of-possibility guardianship for parties who do not yet exist. Above the reach ceiling that channel is a minimum condition of coordination at this scale, not a discretionary addition and not satisfiable by disclosure alone. Impressionistic affected-party knowledge is not a substitute for the channel. Below the reach ceiling, direct identification and reach of affected parties suffices and the channel is not required by scale.
+
+The honest scope of the minimum condition is legibility, not knowledge. The channel does not let a unit past the ceiling know its affected parties as a unit below the ceiling can. It makes the affected-party relationship legible and answerable rather than impressionistic. The epistemic limit stands: affected parties' full values and circumstances cannot be known across the ceiling, and any representation is incomplete. The channel is the repair of a broken function, not a restored knowing.
+
+### 10.5 Maximum Condition (Provisional)
+
+No single actor controls who counts as an affected party, or how affected-party interests are represented, without the channel's authorization. Absent maximum condition: a unit past the reach ceiling defines its own affected-party constituency to its convenience, naming as affected only the parties whose signals it prefers to receive. The authorization of the proxy or guardian architecture is itself subject to the Structural Power Obligation Standard Authorize invariant; the maximum condition here is the scale-axis statement of the same requirement.
+
+### 10.6 Interface Condition (Provisional)
+
+A unit past the reach ceiling presents at its boundary: a structurally authorized affected-party proxy or guardian channel, operative and not disclosure-only; a named affected-party constituency the unit does not unilaterally control; and an explicit statement that the channel provides legibility of the affected-party relationship, not knowledge of affected parties' full interests.
+
+---
+
+## Section 11: Effective Radius Assessment
 
 **Contextual baseline.** The threshold numbers in this standard (5, 15, 50, 150) are derived from research conducted primarily in Western, industrialized, and digital-native organizational contexts. Units with significantly different structural contexts (very high pre-existing trust, co-located intensive interaction, non-Western cultural frameworks for group membership, or very low baseline interaction frequency) should treat the numbers as approximate anchors. The functional questions below are the primary instrument in all contexts; the threshold numbers are reference points for units without better calibration data.
 
@@ -316,11 +360,11 @@ The assessment questions detect threshold crossing, not threshold approach. Coor
 
 ---
 
-## Section 11: Adoption Architecture
+## Section 12: Adoption Architecture
 
 ### CSS-Assessed
 
-The coordination unit has identified its effective Radius using the assessment method in Section 10. It has named which thresholds it has crossed. It has documented which minimum conditions for crossed thresholds are present and which are absent. The gap map is complete.
+The coordination unit has identified its effective Radius using the assessment method in Section 11. It has named which thresholds it has crossed. It has documented which minimum conditions for crossed thresholds are present and which are absent. The gap map is complete.
 
 CSS-Assessed does not require minimum conditions to be installed. It requires honest identification of the current state.
 
@@ -334,7 +378,7 @@ CSS-Operational requires that the conditions be structural (embedded in the unit
 
 The coordination unit has a structural mechanism for detecting when it is approaching the next threshold, and a founding window protocol: a named plan for installing minimum conditions before the next threshold is crossed.
 
-The detection mechanism does not require continuous measurement infrastructure. It requires named trigger conditions: specific observable signals that indicate a threshold may be approaching and that prompt a new Section 10 assessment. Trigger conditions vary by organization; examples include: membership has grown significantly since the last assessment; new members can no longer informally identify who is responsible for which coordination functions; informal knowledge of member states or capacities has become unreliable; a departure caused unexpected coordination failures; conflict escalation has increased without an identified cause. When any named trigger fires, the unit runs the Section 10 assessment to determine whether threshold approach has occurred.
+The detection mechanism does not require continuous measurement infrastructure. It requires named trigger conditions: specific observable signals that indicate a threshold may be approaching and that prompt a new Section 11 assessment. Trigger conditions vary by organization; examples include: membership has grown significantly since the last assessment; new members can no longer informally identify who is responsible for which coordination functions; informal knowledge of member states or capacities has become unreliable; a departure caused unexpected coordination failures; conflict escalation has increased without an identified cause. When any named trigger fires, the unit runs the Section 11 assessment to determine whether threshold approach has occurred.
 
 The founding window for the next threshold opens when the first named trigger condition fires. From that point, the founding window protocol is active and minimum conditions for the next Radius must be under installation before additional triggers indicate the crossing has occurred.
 
@@ -352,7 +396,7 @@ An independent observer (someone with no prior relationship to the coordination 
 
 ---
 
-## Section 12: Tensegrity As A Whole
+## Section 13: Tensegrity As A Whole
 
 ```
 Coordination Structural Integrity Suite
