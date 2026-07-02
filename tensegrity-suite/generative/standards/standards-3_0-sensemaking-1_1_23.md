@@ -4,7 +4,7 @@
 
 Regis Chapman (Durgadas)
 
-Version 1.1.22 | April 2026
+Version 1.1.23 | June 2026
 
 Status: Release candidate
 
@@ -40,11 +40,11 @@ This standard names its ontological commitments rather than claiming framework-n
 
 This is the first Tensegrity Generative Standard. The seven Tensegrity Compressive Standards (Precision-First Design, Adverse-Signal Engagement, Structural Consent Legibility, Information Asymmetry Classification, Structural Power Obligation Standard, Regenerative Obligation Standard, and the Coordination Scaling Standard) are compressive: they close exploitation vectors and specify structural floors. Tensegrity Generative Standards are tensile: they specify enabling conditions for coordination health. The Tensegrity Compressive Standards name what must not happen. The Tensegrity Generative Standards name what must be structurally present for coordination to be genuine rather than coincidental. Both are required. Neither substitutes for the other.
 
-**Typological declaration** (Descriptive Typology Map v0.1.1)
+**Typological declaration** (description classes per the Terminology Conventions Reference)
 
 *Operative classes*
 - Epistemic-perceptual: This standard operates primarily in this class. All five structural invariants specify what must be epistemically present for sensemaking to occur: disruption as occasioning condition, particular-to-general relating, action-entanglement, sufficiency orientation, and temporal structure. The three scales of operation specify how these epistemic conditions apply at intra-personal, inter-personal, and witness-reception levels.
-- Temporal-dynamic (sequential sub-aspect): The temporally structured invariant, the three action invariants (residue, direction, phase), and the adoption architecture specify sequential structure. Sensemaking has phases, leaves persistent residue, and produces directional orientation over time.
+- Temporal-dynamic (sequential sub-aspect): The temporally structured invariant, the three action invariants (residue, direction, phase), and the adoption architecture use the sequential-temporal sub-class, drawn as inherited vocabulary from the external temporal instrument that owns the class definition rather than claimed as this standard's own. Sensemaking has phases, leaves persistent residue, and produces directional orientation over time; the three action invariants were derived independently from Sanskrit action theory and map onto the sequential-temporal axes, an independent convergence rather than a proprietary claim on the sub-class.
 - Action-structural: The three action invariants and the action-entangled structural invariant operate in this class. The standard specifies what sensemaking must produce as action residue, what direction actions must carry, and what phase actions must occupy.
 
 *Boundary classes*
@@ -558,6 +558,7 @@ Each standard in the Coordination Structural Integrity Suite is independently ad
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.1.23 | 2026-06-22 | Typological declaration clarified in the combined keystone-and-boundary sweep: header cites the description classes per the Terminology Conventions Reference (not a Map version); the temporal-dynamic (sequential sub-aspect) operative entry, already the correct sequential-versus-frequency partition and the model the B1 batch followed, now states it uses the sub-class as inherited vocabulary from the external temporal instrument rather than as a proprietary claim, with the three action invariants noted as an independent convergence on the axes (derived from Sanskrit action theory). No normative change. |
 | 1.1.22 | 2026-04-17 | Suite count correction. Coordination Scaling Standard added as seventh Tensegrity Compressive Standard in Section 1 preamble and Section 6.4 reference. No normative content changes. |
 | 1.1.21 | 2026-04-16 | Tier 4 renamed from SMS-Accountable to SMS-Loop-Closed throughout normative text: Section 9.4 heading, defining property statement, constitutive elements list, inheritance clause template, and three cross-references in Sections 3.5, 7.3, and 9.6. No normative content added or removed. |
 | 1.1.20 | 2026-04-15 | Frame Language pass: bridge vocabulary tightened to v0.1.6 Row 7 standard. Version header corrected from stale 1.1.18 to 1.1.20. Admissible exceptions retained: "Haudenosaunee governance" ×2 in Section 7 (Case 2, established name of Indigenous political system); "environmental governance" in Section 7.4 (Case 2, named academic field); changelog entries. Major replacements: "governance record" to "coordination record" throughout (~8 instances, including all action invariant observable markers, Section 9 adoption architecture, SMS-Accountable and SMS-Auditable tier definitions); "closed governance loop architecture" to "closed coordination loop architecture"; "mandatory governance responses" to "mandatory coordination responses"; "governance review" to "coordination review" throughout; "Governance Change Proposal Mechanisms" (Section 8.6 heading) to "Coordination Change Proposal Mechanisms"; "Governance Layer Assignments" (Section 9.6 heading) to "Coordination Layer Assignments"; "Governance-mutable elements" to "Coordination-mutable elements"; "governance infrastructure" to "coordination infrastructure"; "governance assumptions" to "coordination assumptions"; "founding governance architecture" to "founding coordination architecture"; "Research into governance failures" to "Research into coordination failures"; "governs the suite as a whole" to "applies to the suite as a whole"; "both governed by the Structural Consent Legibility Standard" to "both subject to"; "Individual consent governs identity-linked participation" to "Individual consent covers"; "not a legitimate exercise of governance or editorial discretion" to "coordination or editorial discretion"; "community-based governance, indigenous governance frameworks" to "community-based coordination, indigenous coordination frameworks"; "cosmological governance" to "cosmological coordination practice." |

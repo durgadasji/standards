@@ -4,7 +4,7 @@
 
 **Regis Chapman (Durgadas)**
 
-Version 0.1.25 \| April 2026
+Version 0.1.26 \| June 2026
 
 *This document establishes a six-class taxonomy of information asymmetry
 in coordination systems. It is intended to be legible to researchers in
@@ -221,7 +221,7 @@ concrete implementation. The taxonomy itself is not specific to any
 particular protocol. It is a general analytical framework for
 coordination systems, adoptable by any system in any domain.
 
-**Typological declaration** (Descriptive Typology Map v0.1.1)
+**Typological declaration** (description classes per the Terminology Conventions Reference)
 
 *Operative classes*
 - Epistemic-perceptual: This standard operates in the asymmetry classification sub-aspect: naming, defining, and distinguishing structural information asymmetries by mechanism, historical precedent, and detection surface. It also operates in the precision and operationalization sub-aspect: each primary class has an operational definition, distinguishing criteria, and a specified detection surface.
@@ -230,7 +230,7 @@ coordination systems, adoptable by any system in any domain.
 *Boundary classes*
 - Felt-experience: This standard identifies structural information asymmetries but does not address the affective, somatic, or phenomenal dimensions of occupying a position of information disadvantage.
 - Structural-mechanical: This standard does not address how information asymmetries propagate as structural loads through a tensegrity configuration, modify pre-stress distribution, or contribute to the anisotropy profile.
-- Temporal-dynamic (frequency-dynamic sub-aspect): The temporal asymmetry class (Class 2) addresses sequential timing of information access. This standard does not address how coordination structures respond to the frequency or rhythm of asymmetry pressure over time.
+- Temporal-dynamic: This standard's Class 2 (temporal asymmetry) owns the asymmetry-position question, which party can act first given the ordering of information access, an information-position property that is this standard's own. The timing profile of that access itself, its loop latency, staleness, and correction-window, is the sequential-temporal sub-class owned by an external temporal instrument; Class 2 uses those axes as inherited vocabulary to describe the timing while owning the asymmetry it produces. The frequency-dynamic sub-aspect, how asymmetry responds to the rhythm of pressure rather than to its magnitude, is outside this standard's scope.
 
 **Section 2: Taxonomy Architecture**
 
@@ -1581,6 +1581,8 @@ Without this standard the suite has no mechanism for classifying which specific 
 Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the ten standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 Changelog
+
+v0.1.26 (2026-06-22): Typological declaration repaired in the combined keystone-and-boundary sweep. Header cites the description classes per the Terminology Conventions Reference rather than a Descriptive Typology Map version. Temporal-dynamic resolved as the ownership case (Option A): Class 2 (temporal asymmetry) now owns the asymmetry-position question (which party can act first) while using the external temporal instrument's sequential-temporal axes as inherited vocabulary for the timing profile, rather than retaining "sequential timing of information access" as its own operative class in collision with the class the instrument owns. Frequency-dynamic remains out of scope. No change to the six-class taxonomy or the Class 2 detection surface; this resolves the ownership overlap. Filling instrument named only as external; no Map pointer.
 
 v0.1.25 (2026-04-17): Suite count correction. Coordination Scaling Standard added as seventh Tensegrity Compressive Standard: conformance threshold in inheritance clause updated from "all six" to "all seven." No normative content changes.
 

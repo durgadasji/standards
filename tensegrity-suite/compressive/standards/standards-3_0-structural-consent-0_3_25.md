@@ -1,6 +1,6 @@
 Structural Consent Legibility Standard
 
-**Version:** v0.3.24
+**Version:** v0.3.25
 
 **Date:** 2026-04-17
 
@@ -55,7 +55,7 @@ structurally present, not merely claimed. Adoption
 tiers (Section 5) allow organizations to adopt the standard at the level
 appropriate to their operational context.
 
-**Typological declaration** (Descriptive Typology Map v0.1.1)
+**Typological declaration** (description classes per the Terminology Conventions Reference)
 
 *Operative classes*
 - Relational-topological: This standard operates primarily in this class. Consent is a structural property of the relationship between parties: who is acting and who benefits from the action. The two-axis framework decomposes every consent-bearing interaction into independently assessable relational properties, making the structural topology of consent visible to an independent observer.
@@ -64,7 +64,7 @@ appropriate to their operational context.
 *Boundary classes*
 - Felt-experience: This standard assesses structural consent legibility, not experienced consent. Structural legibility is necessary but not sufficient for consent that is genuinely experienced as free, fair, and accessible. What a participant experiences inside a structurally legible consent transaction is outside this standard's vocabulary; it is the class where structural legibility ends and lived experience begins.
 - Structural-mechanical: This standard does not address how consent misalignment generates structural loads in the tensegrity configuration, modifies pre-stress distribution, or creates exploitation vectors at the configuration level.
-- Temporal-dynamic (frequency-dynamic sub-aspect): This standard addresses structural conditions for consent legibility but not how consent architecture responds to the frequency or rhythm of coordination pressure over time.
+- Temporal-dynamic: The temporal-dynamic class is a boundary class for this standard, which holds no temporal-profile vocabulary of its own; the class definition is owned by an external temporal instrument. Where this standard's mechanisms use temporal-profile reasoning (the revocation correction-window, the ex-ante ordering of consent before action, re-consent on scope change, domain-scaled consent windows, and the loop-closed detection-to-review window), they draw on that instrument's sequential-temporal axes as inherited vocabulary rather than constituting native temporal-dynamic vocabulary. The frequency-dynamic sub-aspect, how consent architecture responds to the rhythm of coordination pressure rather than to its magnitude, is genuinely outside this standard's scope.
 
 2\. Foundational Framework: The Wheel of Consent
 
@@ -1059,7 +1059,7 @@ respectively.
 Citations: First Nations Information Governance Centre. The First
 Nations Principles of OCAP. https://fnigc.ca/ocap-training/. Global
 Indigenous Data Alliance. CARE Principles for Indigenous Data
-Governance. https://www.gida-global.org/careprinciples.
+Governance. https://www.gida-global.org/care.
 
 7.5 Tensegrity Compressive Standards within the Coordination Structural Integrity Suite
 
@@ -1174,6 +1174,8 @@ Each standard in the Coordination Structural Integrity Suite is independently ad
 
 Changelog
 
+**v0.3.25 (2026-06-22):** Typological declaration repaired in the combined keystone-and-boundary sweep. Header cites the description classes per the Terminology Conventions Reference rather than a Descriptive Typology Map version. Temporal-dynamic boundary widened from the narrow "(frequency-dynamic sub-aspect)" to the whole class: the standard holds no temporal-profile vocabulary of its own, the class definition is owned by an external temporal instrument, and the standard's sequential-temporal mechanisms (the revocation correction-window, ex-ante consent ordering, re-consent on scope change, domain-scaled consent windows, the loop-closed detection-to-review window) are named as inherited use rather than undeclared native use. Corrects the corpus-wide B1 wrong-grain cession. No normative change. Filling instrument named only as external; no Map pointer.
+
 **v0.3.24 (2026-04-17):** Suite count correction. Coordination Scaling Standard added as seventh Tensegrity Compressive Standard throughout Section 7.5: standard count updated from six to seven in all instances; CSS added to canonical standard list; conformance threshold corrected from "all five" to "all seven." No normative content changes.
 
 **v0.3.23 (2026-04-15):** Frame Language pass (Row 7 v0.1.6). One residual non-admissible hit: "The Sensemaking Standard governs an organization's capacity" → "covers." Admissible: all other remaining "govern" instances are Case 1 (Section 1 opening), Case 2 (Ostrom, CARE/OCAP, indigenous governance authority), Case 3 (external regulatory doctrine), or plain English verb. No normative content changes.
@@ -1184,7 +1186,7 @@ Changelog
 
 **v0.3.20 (2026-04-11):** Three normative additions addressing structural consent failures surfaced by DAO failure case analysis. (1) Cost-bearing party identification added to Section 2.1: the two-axis framework is supplemented with an explicit requirement to identify who bears the cost when the cost-bearing party is distinct from both the acting and benefiting parties; failure to identify the cost-bearing party is a consent failure independent of two-axis legibility. (2) External legal override named as a structural threat in new Section 2.3.2: external legal requirements (securities classification, employment law, data sovereignty mandates, anti-money-laundering obligations) can override explicit consent architecture; the consent architecture must name applicable jurisdictions and govern the gap between explicit consent and externally imposed obligations. (3) Action specification prior condition added to Section 3.1: the Identify invariant presupposes that the action being consented to is specified with sufficient precision for affected parties to evaluate standing; category-level authorization cannot substitute for per-action consent without a named trigger condition for standing evaluation.
 
-**v0.3.19 (2026-04-10):** Section 4.5.1 heading renamed from "Observation Consent Architecture" to "Observation Consent Specification." No normative content changes. Rename frees "Consent Architecture" as a reserved compound for use as the Multiplex Consent Architecture sub-class name in the Uniplex/Multiplex architectural frame vocabulary (see reference-terminology-conventions-0_1_2.md).
+**v0.3.19 (2026-04-10):** Section 4.5.1 heading renamed from "Observation Consent Architecture" to "Observation Consent Specification." No normative content changes. Rename frees "Consent Architecture" as a reserved compound for use as the Multiplex Consent Architecture sub-class name in the Uniplex/Multiplex architectural frame vocabulary (see reference-terminology-conventions.md).
 
 **v0.3.18 (April 2026):** Plain-language preamble added. Two paragraphs inserted before the non-harming formula in Section 1 (Purpose), grounding the standard in the lived experience of the coordination failure it addresses (consent claimed without structural verifiability). Navigation pointer added: one sentence pointing to the Suite Integration Guide and the Suite Deployment Contexts document. No changes to normative content.
 

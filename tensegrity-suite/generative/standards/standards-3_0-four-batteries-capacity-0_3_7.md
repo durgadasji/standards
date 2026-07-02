@@ -1,6 +1,6 @@
 # Four Batteries Capacity Standard
 
-**Version:** 0.3.6
+**Version:** 0.3.7
 **Status:** Working draft. Core architecture fully specified. Falsifiability architecture complete. Instrument/practice distinction resolved. Section 8 (Scope and Delegation Conditions) added: four structural conditions, three organizational failure signatures, satisfaction signature, developmental practice requirement, and tiered adoption. Regenerative Obligation Standard relationship added to Section 9.  
 **Layer:** Tensegrity Generative Standards within the Coordination Structural Integrity Suite  
 
@@ -24,7 +24,7 @@ The Tensegrity Compressive Standards specify floors and close exploitation vecto
 
 **Domain generality:** This standard is written for decentralized organizations operating primarily in the Complex and Complicated Cynefin domains. Organizations whose work is primarily Clear-domain may find the generative conditions less structurally load-bearing, though the depletion archetypes apply across domains.
 
-**Typological declaration** (Descriptive Typology Map v0.1.1)
+**Typological declaration** (description classes per the Terminology Conventions Reference)
 
 *Operative classes*
 - Structural-mechanical: Battery states are pre-stress contributors to the tensegrity configuration of a coordination system. This standard specifies four structural conditions whose presence or depletion modifies the pre-stress available for coordination. The depletion and generative archetypes describe recognizable pre-stress configurations, not behavioral profiles.
@@ -33,7 +33,7 @@ The Tensegrity Compressive Standards specify floors and close exploitation vecto
 
 *Boundary classes*
 - Epistemic-perceptual: This standard specifies the structural conditions battery states represent but does not provide detection mechanisms for measuring them. Detection instruments, weighting methods, and record architecture are left to the adopting organization or platform to specify.
-- Temporal-dynamic (frequency-dynamic sub-aspect): The depletion and recovery archetypes describe sequential dynamics but not how coordination capacity responds to the frequency or rhythm of depletion pressure over time.
+- Temporal-dynamic: The temporal-dynamic class is a boundary class for this standard, which holds no temporal-profile vocabulary of its own; the class definition is owned by an external temporal instrument. Where this standard's mechanisms use temporal-profile reasoning (the depletion-and-recovery sequences, the timed depletion windows, the narrowing correction-window across failed recovery cycles, and the defined conformance cadence), they draw on that instrument's sequential-temporal axes as inherited vocabulary rather than constituting native temporal-dynamic vocabulary. The frequency-dynamic sub-aspect, how coordination capacity responds to the rhythm of depletion pressure rather than to its magnitude, is genuinely outside this standard's scope.
 - Action-structural: The Contribution battery touches action-structural territory (meaning and agency in what participants are doing) but does not provide action-coordinate-level specifications. The connection between battery states and action-coordinate vocabulary is a named design requirement, not yet specified.
 
 ---
@@ -1013,6 +1013,8 @@ A system can satisfy all seven compressive standards at high tiers while its par
 Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the ten standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 ## Changelog
+
+**v0.3.7 (2026-06-22):** Typological declaration repaired in the combined keystone-and-boundary sweep. Header cites the description classes per the Terminology Conventions Reference rather than a Descriptive Typology Map version. Temporal-dynamic boundary widened from the narrow "(frequency-dynamic sub-aspect)" to the whole class: the class definition is owned by an external temporal instrument, the standard's sequential-temporal mechanisms (the depletion-and-recovery sequences, timed depletion windows, the narrowing correction-window across failed recovery cycles, the defined conformance cadence) named as inherited use rather than undeclared native use, frequency-dynamic out of scope. Corrects the corpus-wide B1 wrong-grain cession (here visible on the boundary line). No normative change. Filling instrument named only as external; no Map pointer.
 
 **v0.3.6 (2026-04-17):** Suite count correction. Coordination Scaling Standard added as seventh Tensegrity Compressive Standard: normative text in Section 9 introduction updated from "all six compressive standards" to "all seven." No normative content changes.
 

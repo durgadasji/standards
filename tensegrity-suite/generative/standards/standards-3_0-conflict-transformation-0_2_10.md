@@ -4,7 +4,7 @@
 
 Regis Chapman (Durgadas)
 
-Version 0.2.9 | April 2026
+Version 0.2.10 | June 2026
 
 Status: Release candidate
 
@@ -38,7 +38,7 @@ GravityDAO's visual architecture makes a further structural claim: Trust Creatio
 
 This is the third Tensegrity Generative Standard. The seven Tensegrity Compressive Standards (Precision-First Design, Adverse-Signal Engagement, Structural Consent Legibility, Information Asymmetry Classification, Structural Power Obligation Standard, Regenerative Obligation Standard, and the Coordination Scaling Standard) are compressive: they close exploitation vectors and specify structural floors. Tensegrity Generative Standards are tensile: they specify enabling conditions for coordination health. The Tensegrity Compressive Standards name what must not happen. The Tensegrity Generative Standards name what must be structurally present for coordination to remain healthy under pressure. Both are required. Neither substitutes for the other.
 
-**Typological declaration** (Descriptive Typology Map v0.1.1)
+**Typological declaration** (description classes per the Terminology Conventions Reference)
 
 *Operative classes*
 - Action-structural: This standard operates primarily in this class. All five structural invariants specify what the coordination system must structurally do to enable conflict engagement: make conflict legible, provide a graduated architecture, protect proactive disposition, provision transformation capacity, and recognize engagement as coordination work. The adoption architecture (Section 8) specifies what observable structural states these invariants produce.
@@ -46,7 +46,7 @@ This is the third Tensegrity Generative Standard. The seven Tensegrity Compressi
 
 *Boundary classes*
 - Felt-experience: The proactive disposition enablement invariant and the transformation capacity provision invariant acknowledge that operator absorption of process costs and organizational disposition toward conflict have felt-experience dimensions. Measurement instruments for these dimensions are at the Suite Deployment Contexts and adopting-organization level, not in this standard.
-- Temporal-dynamic (frequency-dynamic sub-aspect): The graduated engagement architecture has temporal properties (escalation timelines, threshold crossing conditions), but calibration of those timelines to specific organizational contexts is practice-level work outside this standard's scope.
+- Temporal-dynamic: The temporal-dynamic class is a boundary class for this standard, which holds no temporal-profile vocabulary of its own; the class definition is owned by an external temporal instrument. Where this standard's mechanisms use temporal-profile reasoning (the graduated-engagement escalation timelines and threshold-crossing conditions, the requirement against indefinite deferral as a correction-window, and the proactive-disposition predictive window), they draw on that instrument's sequential-temporal axes as inherited vocabulary rather than constituting native temporal-dynamic vocabulary; requiring the engagement architecture is in scope, while calibrating its timelines to a specific organizational context remains practice-level work. The frequency-dynamic sub-aspect, how a coordination structure responds to the rhythm of conflict pressure rather than to its magnitude, is genuinely outside this standard's scope.
 
 ---
 
@@ -324,6 +324,7 @@ Each standard in the Coordination Structural Integrity Suite is independently ad
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 0.2.10 | 2026-06-22 | Typological declaration repaired in the combined keystone-and-boundary sweep: header cites the description classes per the Terminology Conventions Reference (not a Map version); temporal-dynamic boundary widened from the frequency-dynamic sub-aspect to the whole class, the standard's sequential-temporal mechanisms named as inherited use of an external temporal instrument, the valid practice-level-calibration distinction preserved, frequency-dynamic out of scope. Corrects the corpus-wide B1 wrong-grain cession (here visible on the boundary line). No normative change. |
 | 0.2.9 | 2026-04-17 | Suite count correction. Coordination Scaling Standard added as seventh Tensegrity Compressive Standard in Section 1 preamble and Section 11 suite description. No normative content changes. |
 | 0.2.8 | 2026-04-16 | Tier 4 renamed from CT-Accountable to CT-Loop-Closed. Loop-closed property added to tier definition: conflict transformation failures (movement to a higher engagement level without satisfying prior level's named resolution conditions, proactive disposition ratio falling below adopting-organization-specified threshold, operator resourcing below documented prerequisites) produce mandatory coordination responses whose absence is structurally visible without actor cooperation. Minimum requirements added: documented coordination review within a defined window, review record fields specified, automatic disclosure on absent review, append-only record constraint. Annual review extended with operator resourcing and developmental prerequisite verification alongside loop integrity check. Original CT-Accountable external assessability content (coordination review subject, independently assessable, externally reviewable, ratio computable) retained and repositioned after the loop architecture specification. CT-Auditable opening line updated to reference CT-Loop-Closed. |
 | 0.2.7 | 2026-04-15 | Frame Language pass (Row 7 v0.1.6). Replaced all non-admissible Frame 1 vocabulary with Frame 2 coordination equivalents: "governs the suite as a whole" replaced with "covers"; "governance model" replaced with "coordination model" (×3); Section 3.2 heading "does not emerge from governance design" changed to "coordination design"; "governance systems" changed to "coordination systems" (×3); "governance architecture" changed to "coordination architecture"; "adverse signal governance mechanisms" changed to "adverse signal coordination mechanisms"; "infrastructure-level governance outcomes" changed to "coordination outcomes"; "participating organization's governance" changed to "coordination system"; "governs the capacity conditions" changed to "specifies"; "governance review" changed to "coordination review"; "governance systems lacking" changed to "coordination systems lacking". Admissible: "governing and enabling constraint traversal modes" (Case 2, Cynefin/GravityDAO established vocabulary); "Governing the Commons" book title (Case 2); changelog entries. No normative content changes. |

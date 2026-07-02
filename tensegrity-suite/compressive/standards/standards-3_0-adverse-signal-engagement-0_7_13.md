@@ -2,11 +2,11 @@
 
 **(ASEP)**
 
-*Core Standard v0.7.11*
+*Core Standard v0.7.12*
 
 **Regis Chapman (Durgadas)**
 
-Version 0.7.9 \| April 2026
+Version 0.7.13 \| June 2026
 
 # 1. Preamble
 
@@ -61,7 +61,7 @@ chooses and revises its ASEP adoption tier, and how it classifies the
 severity of adverse signals, are themselves subject to ASEP. They MUST
 be logged, deliberate, and open to challenge.
 
-**Typological declaration** (Descriptive Typology Map v0.1.1)
+**Typological declaration** (description classes per the Terminology Conventions Reference)
 
 *Operative classes*
 - Epistemic-perceptual: This standard operates in the detection and signal processing sub-aspect: defining adverse signals, specifying what a detection instrument must distinguish, and establishing the false-negative boundary explicitly. It also operates in the precision and operationalization sub-aspect: signal categories, escalation tiers, and response obligations are operationally defined.
@@ -70,7 +70,7 @@ be logged, deliberate, and open to challenge.
 *Boundary classes*
 - Felt-experience: This standard specifies structural signal detection and response obligations but does not address what it feels like to be a signal source in a monitored coordination system, or the affective dimensions of being subject to adverse signal processing.
 - Action-structural: This standard classifies signal categories and escalation stages but does not address the action-coordinate content of what signal sources or responders are doing within an adverse signal pathway.
-- Temporal-dynamic (frequency-dynamic sub-aspect): Escalation timelines are specified sequentially. This standard does not address how coordination structures respond to the frequency or rhythm of adverse signal pressure over time.
+- Temporal-dynamic: The temporal-dynamic class is a boundary class for this standard, which holds no temporal-profile vocabulary of its own; the class definition is owned by an external temporal instrument. Where this standard's mechanisms use temporal-profile reasoning (the time-governed escalation state machine and its acknowledgment and obligation windows, the maximum-dwell staleness bound, the domain-calibrated clock, and the cost-of-delay correction-window), they draw on that instrument's sequential-temporal axes as inherited vocabulary rather than constituting native temporal-dynamic vocabulary. The frequency-dynamic sub-aspect, how a coordination structure responds to the rhythm of adverse-signal pressure rather than to its magnitude, is genuinely outside this standard's scope.
 
 ## 2.2 Invariants
 
@@ -538,6 +538,22 @@ adverse signal response patterns.
 External authority actions that preempt, override, or delegitimize a system's internal adverse-signal handling process constitute a recognized signal class subject to the Notice/Name/Navigate flow. A conforming implementation must name external override as a recognized signal class in its classification framework, apply Navigate phase obligations to such signals at the tier appropriate to their structural impact, and treat recognition of the system's internal coordination capacity by relevant external authorities as a detection prerequisite, disclosed where absent.
 
 The detection architecture for external override conditions, including the seven override classes and their tier provisions, is specified in the Structural Power Obligation Standard Section 4.5. Absence of external challenge is not recognition. A coordination system that carries no recognition assessment while operating at a scale where external override reach is structurally possible has not satisfied this section.
+
+**3.3.10 Cross-component aggregate compliance failure**
+
+Individual component compliance does not guarantee aggregate compliance. A set of evaluation chain components that each satisfy their individual specifications can, through their interaction, produce an outcome that fails the evaluation chain's overall purpose. This failure mode is structurally distinct from individual non-compliance: no single component is in violation, the standard signal detection path does not produce a finding against any component, and yet the aggregate output fails to reduce the risk the chain was specified to address.
+
+The canonical instance is the Flash Crash structural pattern: each participating actor behaved within its declared parameters, and the aggregate interaction produced a system-level failure that no individual component's notice-name-navigate process captured. The failure was emergent, not attributable, and was invisible to any inspection confined to individual components.
+
+A conforming system must extend its adverse signal detection to aggregate patterns. Specifically: when multiple individually-conformant evaluation chain components produce an output that is inconsistent with the chain's Condition 1 risk reduction statement, that inconsistency is an adverse signal requiring navigation at the aggregate level regardless of individual component compliance findings. Individual compliance findings do not close the signal.
+
+This requirement applies to all evaluation chains specifying population-level calibration (as defined in CRAFT Condition 1 for population-level chains). For population-level chains, systematic directional drift in the population of outputs is an aggregate pattern signal even when no individual output error is statistically anomalous within its own component's acceptance threshold.
+
+Aggregate pattern failure is a double-loop trigger minimum. It cannot be resolved by re-running individual component corrections, because no individual component is failing. The Navigate path must examine whether the interaction structure among components is the source of the aggregate failure, and whether the specification framework that designed those components is generating the aggregate outcome systematically. This is a structural root cause assessment at the chain level, not at the component level.
+
+When the structural root cause assessment at the chain level identifies a specification framework gap as the source of the aggregate failure, that finding is a cross-layer adverse signal. It must be propagated upward through the bidirectional obligations framework to the specification layer (CRAFT Condition 6 feedback protocol) and, where the gap implicates a CSIS standard directly, must be treated as a candidate for double-loop examination of that standard. The propagation path is: Condition 6 feedback protocol for the chain specification, plus the standard ASEP escalation path for the cross-layer signal itself. These are not alternatives; both apply.
+
+The scope of detection required for this section depends on tier. Systems at the ASEP-Instrumented tier must implement aggregate pattern monitoring for any evaluation chain that includes a risk reduction statement under CRAFT Condition 1, and must log all aggregate-level adverse signal findings in the coordination record. Systems at the ASEP-Assessed and ASEP-Operational tiers should document their approach to aggregate pattern detection as part of their tier review, with aggregate failure findings logged at minimum for high-severity chains.
 
 # 4. Operational Guarantees and Ethical Posture
 
@@ -1145,6 +1161,10 @@ Without this standard the suite has no structural requirement for engaging signa
 Each standard in the Coordination Structural Integrity Suite is independently adoptable and independently valid. Adopted together, the ten standards address a reinforcing set of structural failure modes that no single standard covers alone. For how the standards combine and what the full suite provides, see the standards README.
 
 # Changelog
+
+v0.7.13 (2026-06-22): Typological declaration repaired in the combined keystone-and-boundary sweep. Header now cites the description classes per the Terminology Conventions Reference rather than a Descriptive Typology Map version. Temporal-dynamic boundary widened from the narrow "(frequency-dynamic sub-aspect)" to the whole class: the standard holds no temporal-profile vocabulary of its own, the class definition is owned by an external temporal instrument, and the standard's sequential-temporal mechanisms (the time-governed escalation state machine, the maximum-dwell staleness bound, the domain-calibrated clock, the cost-of-delay correction-window) are named as use of that instrument's axes as inherited vocabulary rather than undeclared native use. Corrects the corpus-wide B1 wrong-grain cession, here visible on the boundary line itself ("Escalation timelines are specified sequentially"). No normative change. Filling instrument named only as external; no Map pointer.
+
+v0.7.12 (2026-05-28): Section 3.3.10 (Cross-component aggregate compliance failure) added. Specifies that individual component compliance does not guarantee aggregate compliance; an aggregate outcome inconsistent with the chain's Condition 1 risk reduction statement is an adverse signal at the aggregate level regardless of individual component findings. Names the Flash Crash structural pattern as the canonical instance. Specifies aggregate pattern failure as a double-loop trigger minimum. Extends the structural root cause assessment to the chain level when no individual component is failing. Specifies the cross-layer signal propagation path: Condition 6 feedback protocol plus ASEP escalation for specification framework gaps. Adds tier-differentiated detection obligations for ASEP-Instrumented, ASEP-Assessed, and ASEP-Operational tiers. Source: CRAFT extension candidates domain investigation, Candidate 5 sensemaking, and bidirectional obligations architecture session, 2026-05-28.
 
 v0.7.11 (2026-04-17): Section 8.5 bibliographic citation updated from Precision-First Design Standard v1.5.11 to v2.1.7. No normative content changes.
 
