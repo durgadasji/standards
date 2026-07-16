@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="280 150 440 480" fill="none">
-    <g stroke="#863A34" stroke-width="1.5" opacity="1" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="270 150 460 490" fill="none">
+    <g stroke="#863A34" stroke-width="2.2" opacity="1" fill="none">
       <path d="M442 526 Q 415 486 391 424"/>
       <path d="M391 424 Q 530 452 667 460"/>
       <path d="M667 460 Q 552 502 442 526"/>
@@ -10,7 +10,7 @@
       <path d="M391 424 Q 470 300 558 200"/>
       <path d="M667 460 Q 645 380 609 301"/>
     </g>
-    <g stroke="#3E5C6B" stroke-width="9" stroke-linecap="round" opacity="0.22">
+    <g stroke="#3E5C6B" stroke-width="9" stroke-linecap="round" opacity="0.4">
       <line x1="442" y1="526" x2="609" y2="301"/>
       <line x1="391" y1="424" x2="333" y2="266"/>
       <line x1="667" y1="460" x2="558" y2="200"/>
@@ -19,10 +19,10 @@
       <circle cx="442" cy="526" r="5.5"/><circle cx="391" cy="424" r="5.5"/><circle cx="667" cy="460" r="5.5"/>
       <circle cx="609" cy="301" r="5.5"/><circle cx="333" cy="266" r="5.5"/><circle cx="558" cy="200" r="5.5"/>
     </g>
-    <g stroke="#24292F" stroke-width="1" fill="none">
+    <g stroke="#24292F" stroke-width="1.1" fill="none">
       <circle cx="442" cy="526" r="10"/><circle cx="391" cy="424" r="10"/><circle cx="667" cy="460" r="10"/>
       <circle cx="609" cy="301" r="10"/><circle cx="333" cy="266" r="10"/><circle cx="558" cy="200" r="10"/>
     </g>
 
-    <text x="500" y="600" text-anchor="middle" font-family="ui-monospace, monospace" font-size="15" letter-spacing="3" fill="#863A34">THE CABLES PRODUCE CAPACITY</text>
+    <text x="500" y="606" text-anchor="middle" font-family="ui-monospace, monospace" font-size="21" letter-spacing="3.5" fill="#863A34">THE CABLES PRODUCE CAPACITY</text>
 </svg>

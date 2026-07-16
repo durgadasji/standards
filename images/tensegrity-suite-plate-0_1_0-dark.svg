@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="40 150 920 400" fill="none">
-    <g stroke="#E69086" stroke-width="1.5" opacity="1" fill="none">
+    <g stroke="#E69086" stroke-width="2.2" opacity="1" fill="none">
       <path d="M442 526 Q 415 486 391 424"/>
       <path d="M391 424 Q 530 452 667 460"/>
       <path d="M667 460 Q 552 502 442 526"/>
@@ -19,19 +19,19 @@
       <circle cx="442" cy="526" r="5.5"/><circle cx="391" cy="424" r="5.5"/><circle cx="667" cy="460" r="5.5"/>
       <circle cx="609" cy="301" r="5.5"/><circle cx="333" cy="266" r="5.5"/><circle cx="558" cy="200" r="5.5"/>
     </g>
-    <g stroke="#E6EDF3" stroke-width="1" fill="none">
+    <g stroke="#E6EDF3" stroke-width="1.1" fill="none">
       <circle cx="442" cy="526" r="10"/><circle cx="391" cy="424" r="10"/><circle cx="667" cy="460" r="10"/>
       <circle cx="609" cy="301" r="10"/><circle cx="333" cy="266" r="10"/><circle cx="558" cy="200" r="10"/>
     </g>
-    <g font-family="ui-monospace, monospace" font-size="15" letter-spacing="2.5">
-      <line x1="620" y1="255" x2="742" y2="232" stroke="#8FB3C7" stroke-width="1"/>
-      <circle cx="596" cy="262" r="2.6" fill="#8FB3C7"/>
+    <g font-family="ui-monospace, monospace" font-size="17" letter-spacing="2.5">
+      <line x1="620" y1="255" x2="742" y2="232" stroke="#8FB3C7" stroke-width="1.1"/>
+      <circle cx="596" cy="262" r="2.8" fill="#8FB3C7"/>
       <text x="752" y="229" fill="#8FB3C7">COMPRESSIVE</text>
-      <text x="752" y="250" fill="#8B949E" font-size="12">THE STRUTS RESIST</text>
-      <line x1="470" y1="375" x2="262" y2="408" stroke="#E69086" stroke-width="1"/>
-      <circle cx="478" cy="373" r="2.6" fill="#E69086"/>
-      <text x="96" y="430" fill="#E69086">GENERATIVE</text>
-      <text x="96" y="451" fill="#8B949E" font-size="12">THE CABLES CONNECT</text>
+      <text x="752" y="252" fill="#8B949E" font-size="13.5">THE STRUTS RESIST</text>
+      <line x1="470" y1="375" x2="262" y2="408" stroke="#E69086" stroke-width="1.1"/>
+      <circle cx="478" cy="373" r="2.8" fill="#E69086"/>
+      <text x="80" y="430" fill="#E69086">GENERATIVE</text>
+      <text x="80" y="453" fill="#8B949E" font-size="13.5">THE CABLES CONNECT</text>
     </g>
 
 </svg>
