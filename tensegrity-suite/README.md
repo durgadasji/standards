@@ -36,7 +36,7 @@ All prompts are in the `tensegrity-suite/prompts/` folder. The **[prompts README
 If you have questions about applying the suite to your situation, want to share findings from using these instruments, or want to engage with others working with these standards: use **[GitHub Discussions](https://github.com/coordination-structural-integrity-suite/suite/discussions)**.
 
 <p align="center">
-<img src="images/framework-relationships-0_1_0.svg" alt="Five Frameworks, One Phenomenon: the foundational architecture" width="900"/>
+<img src="../images/framework-relationships-0_1_0.svg" alt="Five Frameworks, One Phenomenon: the foundational architecture" width="900"/>
 </p>
 
 ## Repository structure
@@ -207,7 +207,10 @@ Specifies the structural conditions under which a coordination system develops a
 </details>
 
 <p align="center">
-<img src="images/standards-frameworks-context-0_1_2.svg" alt="Five Frameworks to the Coordination Structural Integrity Suite: structural logic and two-layer architecture" width="900"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../images/standards-frameworks-context-0_2_0-dark.svg">
+  <img alt="Five Frameworks to the Coordination Structural Integrity Suite: structural logic and two-layer architecture" src="../images/standards-frameworks-context-0_2_0-light.svg" width="900">
+</picture>
 </p>
 
 ## Suite-level documents
@@ -313,7 +316,7 @@ Full document at `framework/framework-six-v-trust-framework-0_1_3.md`. Claude sk
 ## Relationship to the Proof of Coordination protocol
 
 <p align="center">
-<img src="images/standards-ostrom-mapping-0_1_2.svg" alt="Ostrom's Eight Design Principles mapped to Standards Implementation" width="900"/>
+<img src="../images/standards-ostrom-mapping-0_1_2.svg" alt="Ostrom's Eight Design Principles mapped to Standards Implementation" width="900"/>
 </p>
 
 These standards are the normative foundation for the Proof of Coordination protocol, which builds measurement infrastructure for coordination capacity. The standards can be adopted independently of the full protocol. The protocol depends on them structurally.
