@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 880" fill="none">
+  <text x="600" y="56" text-anchor="middle" font-family="ui-monospace, monospace" font-size="24" letter-spacing="4" fill="#24292F">FIVE FRAMEWORKS, ONE PHENOMENON</text>
+  <text x="600" y="88" text-anchor="middle" font-family="ui-monospace, monospace" font-size="13" letter-spacing="1.5" fill="#6E7781">PRESSURE-RESPONSE AXIOM · TENSEGRITY · OSTROM'S PRINCIPLES · SHARED LANGUAGE · PREVOLUTION</text>
+  <text x="600" y="112" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13.5" fill="#24292F" opacity="0.8">Answering five different questions that the same phenomenon requires simultaneously.</text>
+  <line x1="600" y1="130" x2="600" y2="170" stroke="#6E7781" stroke-width="1.2"/>
+  <path d="M600 170 l-5 -9 l10 0 z" fill="#6E7781"/>
+  <text x="600" y="192" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11.5" letter-spacing="2" fill="#6E7781">IMPLEMENTED STRUCTURALLY AS</text>
+  <text x="600" y="230" text-anchor="middle" font-family="ui-monospace, monospace" font-size="17" letter-spacing="3" fill="#24292F">COORDINATION STRUCTURAL INTEGRITY SUITE · TEN STANDARDS</text>
+
+  <rect x="48" y="258" width="600" height="570" rx="4" stroke="#3E5C6B" stroke-width="1.4" fill="#F6F8FA" fill-opacity="0.55"/>
+  <line x1="70" y1="296" x2="98" y2="284" stroke="#3E5C6B" stroke-width="6" stroke-linecap="round"/>
+  <text x="112" y="295" font-family="ui-monospace, monospace" font-size="14" letter-spacing="2" fill="#3E5C6B">TENSEGRITY COMPRESSIVE STANDARDS</text>
+  <text x="70" y="320" font-family="system-ui, sans-serif" font-size="12.5" fill="#6E7781">Rigid members: structural floors. Conditions whose absence predictably opens</text>
+  <text x="70" y="337" font-family="system-ui, sans-serif" font-size="12.5" fill="#6E7781">exploitation vectors; each closes one class of failure mode.</text>
+  <text x="70" y="372" font-family="ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#3E5C6B">Precision-First Design Standard</text>
+<text x="70" y="392" font-family="system-ui, sans-serif" font-size="13" fill="#24292F" opacity="0.85">Claims must match the structural context they are applied to.</text>
+<line x1="70" y1="406" x2="630" y2="406" stroke="#D0D7DE" stroke-width="1"/>
+<text x="70" y="436" font-family="ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#3E5C6B">Adverse-Signal Engagement Principle</text>
+<text x="70" y="456" font-family="system-ui, sans-serif" font-size="13" fill="#24292F" opacity="0.85">Signals of structural strain must be engaged, not suppressed.</text>
+<line x1="70" y1="470" x2="630" y2="470" stroke="#D0D7DE" stroke-width="1"/>
+<text x="70" y="500" font-family="ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#3E5C6B">Structural Consent Legibility Standard</text>
+<text x="70" y="520" font-family="system-ui, sans-serif" font-size="13" fill="#24292F" opacity="0.85">Who is governed must be defined; consent must be meaningful.</text>
+<line x1="70" y1="534" x2="630" y2="534" stroke="#D0D7DE" stroke-width="1"/>
+<text x="70" y="564" font-family="ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#3E5C6B">Information Asymmetry Classification Standard</text>
+<text x="70" y="584" font-family="system-ui, sans-serif" font-size="13" fill="#24292F" opacity="0.85">Structural information advantages must be disclosed.</text>
+<line x1="70" y1="598" x2="630" y2="598" stroke="#D0D7DE" stroke-width="1"/>
+<text x="70" y="628" font-family="ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#3E5C6B">Structural Power Obligation Standard</text>
+<text x="70" y="648" font-family="system-ui, sans-serif" font-size="13" fill="#24292F" opacity="0.85">Power must remain contestable across three dimensions.</text>
+<line x1="70" y1="662" x2="630" y2="662" stroke="#D0D7DE" stroke-width="1"/>
+<text x="70" y="692" font-family="ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#3E5C6B">Regenerative Obligation Standard</text>
+<text x="70" y="712" font-family="system-ui, sans-serif" font-size="13" fill="#24292F" opacity="0.85">Extraction must be matched by non-fungible, proximate, embedded return.</text>
+<line x1="70" y1="726" x2="630" y2="726" stroke="#D0D7DE" stroke-width="1"/>
+<text x="70" y="756" font-family="ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#3E5C6B">Coordination Scaling Standard</text>
+<text x="70" y="776" font-family="system-ui, sans-serif" font-size="13" fill="#24292F" opacity="0.85">Scale thresholds must be structurally anticipated and floored.</text>
+<line x1="70" y1="790" x2="630" y2="790" stroke="#D0D7DE" stroke-width="1"/>
+
+  <rect x="678" y="258" width="484" height="390" rx="4" stroke="#863A34" stroke-width="1.4" fill="#F6F8FA" fill-opacity="0.55"/>
+  <path d="M700 290 Q 714 300 728 290" stroke="#863A34" stroke-width="2" fill="none"/>
+  <text x="742" y="295" font-family="ui-monospace, monospace" font-size="14" letter-spacing="2" fill="#863A34">TENSEGRITY GENERATIVE STANDARDS</text>
+  <text x="700" y="320" font-family="system-ui, sans-serif" font-size="12.5" fill="#6E7781">Tensile layer: capacity development. Conditions under which coordination</text>
+  <text x="700" y="337" font-family="system-ui, sans-serif" font-size="12.5" fill="#6E7781">capacity develops rather than merely persisting. Without this layer,</text>
+  <text x="700" y="354" font-family="system-ui, sans-serif" font-size="12.5" fill="#6E7781">compressive standards become compliance checklists performed around.</text>
+  <text x="700" y="390" font-family="ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#863A34">Sensemaking Standard</text>
+<text x="700" y="410" font-family="system-ui, sans-serif" font-size="13" fill="#24292F" opacity="0.85">Shared language must be actively produced, not assumed.</text>
+<line x1="700" y1="424" x2="1140" y2="424" stroke="#D0D7DE" stroke-width="1"/>
+<text x="700" y="454" font-family="ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#863A34">Four Batteries Capacity Standard</text>
+<text x="700" y="474" font-family="system-ui, sans-serif" font-size="13" fill="#24292F" opacity="0.85">Personal, Relational, Contribution, Mission, sustained.</text>
+<line x1="700" y1="488" x2="1140" y2="488" stroke="#D0D7DE" stroke-width="1"/>
+<text x="700" y="518" font-family="ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#863A34">Conflict Transformation Standard</text>
+<text x="700" y="538" font-family="system-ui, sans-serif" font-size="13" fill="#24292F" opacity="0.85">Conflict read as information; transformation resourced.</text>
+<line x1="700" y1="552" x2="1140" y2="552" stroke="#D0D7DE" stroke-width="1"/>
+
+  <path d="M648 539 L678 449" stroke="#6E7781" stroke-width="1" stroke-dasharray="4 5"/>
+</svg>

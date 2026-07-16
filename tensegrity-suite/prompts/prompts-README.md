@@ -33,6 +33,8 @@ Two entry points. Choose based on where you are.
 
 The legacy triage prompt ([Where Do I Start?](suite/suite-triage-where-do-i-start-0_1_1.md)) is still available for direct routing to individual instruments when you already know which standard or prompt you need.
 
+The full assessment also exists as a [single resumable prompt](suite/suite-assessment-0_1_1.md): start fresh and Stage 1 begins automatically, or paste a prior session output to resume where you left off.
+
 ---
 
 ## Coordination Structural Integrity Suite Assessment

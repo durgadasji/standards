@@ -207,7 +207,10 @@ Specifies the structural conditions under which a coordination system develops a
 </details>
 
 <p align="center">
-<img src="images/standards-frameworks-context-0_1_2.svg" alt="Five Frameworks to the Coordination Structural Integrity Suite: structural logic and two-layer architecture" width="900"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/standards-frameworks-context-0_2_0-dark.svg">
+  <img alt="Five Frameworks to the Coordination Structural Integrity Suite: structural logic and two-layer architecture" src="images/standards-frameworks-context-0_2_0-light.svg" width="900">
+</picture>
 </p>
 
 ## Suite-level documents
