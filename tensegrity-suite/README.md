@@ -4,6 +4,13 @@ Distributed coordination is struggling to find solid footing. Decentralized Auto
 
 This repository contains ten standards developed in the course of building the Proof of Coordination protocol: seven Tensegrity Compressive Standards and three Tensegrity Generative Standards. Together they form the Coordination Structural Integrity Suite of the protocol's normative architecture.
 
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../images/tensegrity-suite-plate-0_1_0-dark.svg">
+  <img alt="The suite as a tensegrity figure: seven compressive struts that never touch, held by three generative cables that never slack." src="../images/tensegrity-suite-plate-0_1_0-light.svg" width="760">
+</picture>
+</p>
+
 ## The foundational commitments
 
 The Coordination Structural Integrity Suite rests on two foundational commitments held together: precision and non-harming. Precision without non-harming becomes a control instrument: legibility in service of power rather than protection. Non-harming without precision becomes an attack surface: the good faith and informal trust that sufficiently adversarial actors exploit most reliably, operating in the spaces where formal instruments have no purchase. The fragility of those spaces is no longer a theoretical concern. It is the condition of the moment we are in.
@@ -22,7 +29,7 @@ If you want the simplest start: use the **[AI prompt launcher](https://coordinat
 
 If you are new to the suite, want to understand whether it applies, or want to orient yourself before committing to a formal process: use the **[Explore the Coordination Structural Integrity Suite prompt](prompts/suite/suite-explore-coordination-structural-integrity-suite-0_1_0.md)**. Paste it into any AI assistant (Claude, ChatGPT, Gemini, or similar), describe your organization and situation in plain language, and it will orient you to what the suite is, identify the structural class of your situation, and route you to the right instrument, with an explanation of why. It produces an exploration findings document you can save and carry forward.
 
-If you want to formally assess your organization's structural health across all ten standards and produce a gap map and advancement roadmap: use the **[Coordination Structural Integrity Suite Assessment](prompts/suite/suite-assessment-stage-1-orientation-0_1_0.md)**. This is a five-stage structured process. Each stage produces a downloadable output. Start with Stage 1, which orients you to the full process before any assessment begins. The assessment works best after completing the Explore prompt; it builds on the vocabulary and self-knowledge the exploration develops.
+If you want to formally assess your organization's structural health across all ten standards and produce a gap map and advancement roadmap: use the **[Coordination Structural Integrity Suite Assessment](prompts/suite/suite-assessment-stage-1-orientation-0_1_0.md)**. This is a five-stage structured process. Each stage produces a downloadable output. Start with Stage 1, which orients you to the full process before any assessment begins. The assessment works best after completing the Explore prompt; it builds on the vocabulary and self-knowledge the exploration develops. The same assessment also exists as a [single resumable prompt](prompts/suite/suite-assessment-0_1_1.md): start fresh and Stage 1 begins automatically, or paste a prior session output to resume.
 
 All prompts are in the `tensegrity-suite/prompts/` folder. The **[prompts README](prompts/prompts-README.md)** maps every prompt by type and use case, including the full Coordination Structural Integrity Suite Assessment stage sequence. For extended reasoning work with an AI assistant that already has access to your documents and tools, **Claude skills** are in the `skills/` subfolders; they encode the full reasoning frame for each document and for the suite as a whole.
 
@@ -87,27 +94,117 @@ The "it won't happen to us" assumption is not something these standards argue ag
 
 ## The seven Tensegrity Compressive Standards
 
-**Precision-First Design Standard:** Closes precision failure in two directions. A precision deficit occurs when instrument terms are under-specified: violations become undetectable and gaps remain permanently exploitable. A precision imposition occurs when an instrument is over-specified: compliance can be demonstrated while the coordination purpose remains unserved. Nine corollaries covering both failure directions. Two foundational principles: the precision-first invariant (the artifact test) and Method-Structure Congruence (the process test: the epistemic method used must match the structural character of what is being known; congruence deficits are self-concealing because the absent content leaves no gap marker). Addresses Ostrom's second design principle at the standards level.
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../images/compressive-struts-0_1_0-dark.svg">
+  <img alt="The compressive standards as the struts: rigid members that resist force." src="../images/compressive-struts-0_1_0-light.svg" width="380">
+</picture>
+</p>
 
-**Adverse-Signal Engagement Principle Core Standard:** Requires engagement with signals that contradict current models rather than suppression or reframing. Closes the gap between appearing to address problems and actually addressing them. Addresses Ostrom's design principles 5, 6, and 7 at the standards level.
+| Standard | Version | Holds |
+| --- | --- | --- |
+| **[Precision-First Design Standard](compressive/standards/standards-3_0-precision-first-2_4_3.md)** | 2.4.3 | Every element of a coordination system increases the precision with which its dynamics can be observed, classified, and acted upon. The suite's meta-standard. |
+| **[Adverse-Signal Engagement Principle Core Standard](compressive/standards/standards-3_0-adverse-signal-engagement-0_7_13.md)** | 0.7.13 | Signals that contradict current models are engaged, not suppressed or reframed. |
+| **[Structural Consent Legibility Standard](compressive/standards/standards-3_0-structural-consent-0_3_25.md)** | 0.3.25 | Consent to participation is structurally distinguishable from consent to specific terms, outcomes, and power arrangements. |
+| **[Information Asymmetry Classification Standard](compressive/standards/standards-3_0-information-asymmetry-0_1_26.md)** | 0.1.26 | The structural types of information asymmetry present in a system are classified and disclosed. Six primary classes. |
+| **[Structural Power Obligation Standard](compressive/standards/standards-3_0-structural-power-obligation-0_1_26.md)** | 0.1.26 | Power across three independent dimensions is legible and contestable by participants who hold less of it. |
+| **[Regenerative Obligation Standard](compressive/standards/standards-3_0-regenerative-obligation-0_1_8.md)** | 0.1.8 | Extraction of contributor capacity is matched by regenerative return: non-fungible, proximate, and embedded. |
+| **[Coordination Scaling Standard](compressive/standards/standards-3_0-coordination-scaling-0_1_5.md)** | 0.1.5 | The structural conditions each Dunbar-scale threshold requires are installed before crossing it. |
 
-**Structural Consent Legibility Standard:** Requires that consent to participation be structurally distinguishable from consent to specific terms, outcomes, and power arrangements. Three consent features: negotiated limits, bidirectional awareness, revocability. Addresses Ostrom's first design principle at the standards level.
+<details>
+<summary><b>Precision-First Design Standard</b>: the full architecture</summary>
 
-**Information Asymmetry Classification Standard:** Requires classification and disclosure of the structural types of information asymmetry present in a coordination system. Six primary classes: positional, temporal, interpretive, relational, omission, complexity. Extension class framework for additional classes; Descriptive Capacity Asymmetry (differential linguistic-epistemic-ontological frameworks creating pre-interpretive perception gaps) is the first fully specified extension class.
+Closes precision failure in two directions. A precision deficit occurs when instrument terms are under-specified: violations become undetectable and gaps remain permanently exploitable. A precision imposition occurs when an instrument is over-specified: compliance can be demonstrated while the coordination purpose remains unserved. Nine corollaries covering both failure directions. Two foundational principles: the precision-first invariant (the artifact test) and Method-Structure Congruence (the process test: the epistemic method used must match the structural character of what is being known; congruence deficits are self-concealing because the absent content leaves no gap marker). Addresses Ostrom's second design principle at the standards level.
 
-**Structural Power Obligation Standard:** Requires that structural power arrangements be legible and contestable by participants who hold less of it. Three dimensions: coordination, authority, specialization. The constituency definition (who holds participation rights and on what basis) is a structural condition subject to power distribution analysis; it presupposes that affected parties can participate directly. Where coordination decisions affect parties who cannot participate directly (lacking the necessary standing or not yet existing), proxy and guardian architecture names the structural form for existing non-participating parties; conditions-of-possibility guardianship names the form for parties who do not yet exist (representing structural prerequisites for future participation, not the interests of future persons). Section 4.5 adds external override capacity: seven classes of structural condition through which external actors can supersede internal coordination outcomes regardless of the coordination process (Financial, Military/coercive, Regulatory, Platform, Epistemic, Normative, Relational dependency). Adopting systems must identify which classes are active and produce structural exposure disclosures for each. Addresses Ostrom's design principles 1, 3, and 8 at the standards level; cross-boundary detection architecture for DP8 remains an open design question; relational dependency detection architecture (Class 7) is an open design question addressed in Section 11.6.
+[Read the full standard](compressive/standards/standards-3_0-precision-first-2_4_3.md)
+</details>
 
-**Regenerative Obligation Standard:** Requires that extraction of contributor capacity (labor, attention, knowledge, legitimacy) be matched by regenerative return satisfying three conditions simultaneously: non-fungibility (return must operate in the register of the harm, not a substitute register chosen by the extracting party), proximity (return must flow through a traceable causal chain to the parties who bear the harm, verified against a harm-bearing affiliation registry), and embeddedness (return must operate within the relational structure generated by the extraction obligation, not severed by market substitution or disconnected pooling). Scope: this standard applies to internal extraction and return mechanics, not to what the organization funds or produces externally; a system funding externally regenerative projects while failing the validity conditions for its own contributors' extraction is not conformant. Three categorical disqualifiers for the proximity condition: additionality logic (routes payment to parties who threatened harm, not parties who bore it); Social Return on Investment (SROI) aggregation (permits harm to one stakeholder group to be offset by benefit to another); and the temporal deferral trap (architecture that resolves the organization's accounting through declaration of intent rather than verifiable proximate return delivery; the test is whether registered harm-bearing parties can verify receipt, not merely that intent was declared). Organizations adopting the standard must declare a stance (non-extractive, or more regenerative than extractive) and register harm-bearing affiliations. The standard addresses the Hidden Factory failure mode: when an organization reaches Stage D and continues extracting the output of a contributor's hidden factory without recognition or integration, that is the extraction this floor exists to prevent. The visibility condition requires that extraction be registerable, not only recorded. Two suppression types are structurally distinct: Step 01-formation (distorted normal baseline from growing up inside extraction) and identity fusion (the Stage D-E mechanism where the contributor's sense of worth has become entangled with absorbing the load, making claim-raising require disidentification from a load-bearing role). Organizations cannot rely on voluntary claim-raising when either suppression type is present.
+<details>
+<summary><b>Adverse-Signal Engagement Principle Core Standard</b>: the full architecture</summary>
 
-**Coordination Scaling Standard:** Specifies the structural conditions that coordination units must install at each Dunbar-scale threshold before crossing it. Six nested Radii define coordination segments (Radius 5, 15, 50, 150 are normative; Radius 500 and 1500 are provisional) at which specific coordination functions change. At each threshold, minimum conditions specify the structural requirements for coordination at that Radius to be possible; maximum conditions specify the structural specification whose absence enables capture at that Radius. All minimum conditions for all crossed thresholds apply simultaneously: partial installation across thresholds is not conformance. The standard is precondition compressive: operating below minimum conditions for the current effective Radius means the coordination functions the other compressive standards protect have already broken at the threshold. Effective Radius is determined by the aggregate of member count, interaction frequency and quality, shared context depth, and communication medium mix, not by headcount alone. The standard distinguishes nominal Effective Radius (capacity with full membership present) from robust Effective Radius (capacity under worst-case single departure); a gap between the two is a maximum conditions concern. The founding window (the period before each threshold crossing during which minimum conditions for the next Radius can be installed most effectively) closes at the crossing; installing minimum conditions during the crisis that their absence creates produces poorly designed specifications.
+Requires engagement with signals that contradict current models rather than suppression or reframing. Closes the gap between appearing to address problems and actually addressing them. Addresses Ostrom's design principles 5, 6, and 7 at the standards level.
+
+[Read the full standard](compressive/standards/standards-3_0-adverse-signal-engagement-0_7_13.md)
+</details>
+
+<details>
+<summary><b>Structural Consent Legibility Standard</b>: the full architecture</summary>
+
+Requires that consent to participation be structurally distinguishable from consent to specific terms, outcomes, and power arrangements. Three consent features: negotiated limits, bidirectional awareness, revocability. Addresses Ostrom's first design principle at the standards level.
+
+[Read the full standard](compressive/standards/standards-3_0-structural-consent-0_3_25.md)
+</details>
+
+<details>
+<summary><b>Information Asymmetry Classification Standard</b>: the full architecture</summary>
+
+Requires classification and disclosure of the structural types of information asymmetry present in a coordination system. Six primary classes: positional, temporal, interpretive, relational, omission, complexity. Extension class framework for additional classes; Descriptive Capacity Asymmetry (differential linguistic-epistemic-ontological frameworks creating pre-interpretive perception gaps) is the first fully specified extension class.
+
+[Read the full standard](compressive/standards/standards-3_0-information-asymmetry-0_1_26.md)
+</details>
+
+<details>
+<summary><b>Structural Power Obligation Standard</b>: the full architecture</summary>
+
+Requires that structural power arrangements be legible and contestable by participants who hold less of it. Three dimensions: coordination, authority, specialization. The constituency definition (who holds participation rights and on what basis) is a structural condition subject to power distribution analysis; it presupposes that affected parties can participate directly. Where coordination decisions affect parties who cannot participate directly (lacking the necessary standing or not yet existing), proxy and guardian architecture names the structural form for existing non-participating parties; conditions-of-possibility guardianship names the form for parties who do not yet exist (representing structural prerequisites for future participation, not the interests of future persons). Section 4.5 adds external override capacity: seven classes of structural condition through which external actors can supersede internal coordination outcomes regardless of the coordination process (Financial, Military/coercive, Regulatory, Platform, Epistemic, Normative, Relational dependency). Adopting systems must identify which classes are active and produce structural exposure disclosures for each. Addresses Ostrom's design principles 1, 3, and 8 at the standards level; cross-boundary detection architecture for DP8 remains an open design question; relational dependency detection architecture (Class 7) is an open design question addressed in Section 11.6.
+
+[Read the full standard](compressive/standards/standards-3_0-structural-power-obligation-0_1_26.md)
+</details>
+
+<details>
+<summary><b>Regenerative Obligation Standard</b>: the full architecture</summary>
+
+Requires that extraction of contributor capacity (labor, attention, knowledge, legitimacy) be matched by regenerative return satisfying three conditions simultaneously: non-fungibility (return must operate in the register of the harm, not a substitute register chosen by the extracting party), proximity (return must flow through a traceable causal chain to the parties who bear the harm, verified against a harm-bearing affiliation registry), and embeddedness (return must operate within the relational structure generated by the extraction obligation, not severed by market substitution or disconnected pooling). Scope: this standard applies to internal extraction and return mechanics, not to what the organization funds or produces externally; a system funding externally regenerative projects while failing the validity conditions for its own contributors' extraction is not conformant. Three categorical disqualifiers for the proximity condition: additionality logic (routes payment to parties who threatened harm, not parties who bore it); Social Return on Investment (SROI) aggregation (permits harm to one stakeholder group to be offset by benefit to another); and the temporal deferral trap (architecture that resolves the organization's accounting through declaration of intent rather than verifiable proximate return delivery; the test is whether registered harm-bearing parties can verify receipt, not merely that intent was declared). Organizations adopting the standard must declare a stance (non-extractive, or more regenerative than extractive) and register harm-bearing affiliations. The standard addresses the Hidden Factory failure mode: when an organization reaches Stage D and continues extracting the output of a contributor's hidden factory without recognition or integration, that is the extraction this floor exists to prevent. The visibility condition requires that extraction be registerable, not only recorded. Two suppression types are structurally distinct: Step 01-formation (distorted normal baseline from growing up inside extraction) and identity fusion (the Stage D-E mechanism where the contributor's sense of worth has become entangled with absorbing the load, making claim-raising require disidentification from a load-bearing role). Organizations cannot rely on voluntary claim-raising when either suppression type is present.
+
+[Read the full standard](compressive/standards/standards-3_0-regenerative-obligation-0_1_8.md)
+</details>
+
+<details>
+<summary><b>Coordination Scaling Standard</b>: the full architecture</summary>
+
+Specifies the structural conditions that coordination units must install at each Dunbar-scale threshold before crossing it. Six nested Radii define coordination segments (Radius 5, 15, 50, 150 are normative; Radius 500 and 1500 are provisional) at which specific coordination functions change. At each threshold, minimum conditions specify the structural requirements for coordination at that Radius to be possible; maximum conditions specify the structural specification whose absence enables capture at that Radius. All minimum conditions for all crossed thresholds apply simultaneously: partial installation across thresholds is not conformance. The standard is precondition compressive: operating below minimum conditions for the current effective Radius means the coordination functions the other compressive standards protect have already broken at the threshold. Effective Radius is determined by the aggregate of member count, interaction frequency and quality, shared context depth, and communication medium mix, not by headcount alone. The standard distinguishes nominal Effective Radius (capacity with full membership present) from robust Effective Radius (capacity under worst-case single departure); a gap between the two is a maximum conditions concern. The founding window (the period before each threshold crossing during which minimum conditions for the next Radius can be installed most effectively) closes at the crossing; installing minimum conditions during the crisis that their absence creates produces poorly designed specifications.
+
+[Read the full standard](compressive/standards/standards-3_0-coordination-scaling-0_1_5.md)
+</details>
 
 ## The three Tensegrity Generative Standards
 
-**Sensemaking Standard:** Specifies what sensemaking must structurally provide for coordination to remain self-correcting. Five structural invariants: disruption-occasioned, particular-to-general relating, action-entangled, sufficiency-oriented, temporally structured. Three operational scales: intra-personal, inter-personal, witness-reception. The particular-to-general relating invariant names three violation signatures: assertion (conclusion without traceable cues), cataloging (cues accumulated without a general frame emerging), and personal-framing misapplication (a general frame applied that misidentifies the register of causation, assigning personal causes to a structural mechanism or vice versa, without examining whether the frame fits the cues). The standard specifies structural conditions; it does not prescribe method.
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../images/generative-cables-0_1_0-dark.svg">
+  <img alt="The generative standards as the cables: the tension network that produces capacity." src="../images/generative-cables-0_1_0-light.svg" width="380">
+</picture>
+</p>
 
-**Four Batteries Capacity Standard:** Specifies the structural conditions under which four orthogonal capacity dimensions (Personal, Relational, Contribution, Mission) enable coordination surplus rather than merely preventing failure. Each battery operates across two independent dimensions: charge (cyclical, maintainable) and developmental state (permanent until transformed through integration events). Specifies depletion archetypes, generative archetypes, and structural connections to the seven Tensegrity Compressive Standards. The seventh connection (Contribution Battery and Regenerative Obligation Standard) names the Hidden Factory Stage D self-reinforcing detection gap: the Regenerative Obligation Standard floor violation depletes the claiming capacity needed to surface it, and voluntary claim-raising cannot break the loop without battery state data showing the co-occurrence pattern.
+| Standard | Version | Provides |
+| --- | --- | --- |
+| **[Sensemaking Standard](generative/standards/standards-3_0-sensemaking-1_1_23.md)** | 1.1.23 | What sensemaking must structurally provide for coordination to remain self-correcting. Five invariants, three scales. |
+| **[Four Batteries Capacity Standard](generative/standards/standards-3_0-four-batteries-capacity-0_3_7.md)** | 0.3.7 | Four orthogonal capacity dimensions (Personal, Relational, Contribution, Mission) conditioned for surplus, not just non-failure. |
+| **[Conflict Transformation Standard](generative/standards/standards-3_0-conflict-transformation-0_2_10.md)** | 0.2.10 | The structural conditions under which conflict transformation capacity develops and is sustained. |
 
-**Conflict Transformation Standard:** Specifies the structural conditions under which a coordination system develops and sustains conflict transformation capacity. Five structural invariants: conflict legibility, graduated engagement architecture, proactive disposition enablement, transformation capacity provision, recognition as coordination work. Three operational scales: intra-organizational, inter-organizational, protocol-level. Addresses Ostrom's design principles 4, 5, and 6 at the standards level. Primary empirical grounding: GravityDAO operated for seven years, was universally recognized as necessary, and failed entirely because no existing coordination infrastructure provided a mechanism to recognize conflict transformation as coordination work. The standard addresses that structural gap directly.
+<details>
+<summary><b>Sensemaking Standard</b>: the full architecture</summary>
+
+Specifies what sensemaking must structurally provide for coordination to remain self-correcting. Five structural invariants: disruption-occasioned, particular-to-general relating, action-entangled, sufficiency-oriented, temporally structured. Three operational scales: intra-personal, inter-personal, witness-reception. The particular-to-general relating invariant names three violation signatures: assertion (conclusion without traceable cues), cataloging (cues accumulated without a general frame emerging), and personal-framing misapplication (a general frame applied that misidentifies the register of causation, assigning personal causes to a structural mechanism or vice versa, without examining whether the frame fits the cues). The standard specifies structural conditions; it does not prescribe method.
+
+[Read the full standard](generative/standards/standards-3_0-sensemaking-1_1_23.md)
+</details>
+
+<details>
+<summary><b>Four Batteries Capacity Standard</b>: the full architecture</summary>
+
+Specifies the structural conditions under which four orthogonal capacity dimensions (Personal, Relational, Contribution, Mission) enable coordination surplus rather than merely preventing failure. Each battery operates across two independent dimensions: charge (cyclical, maintainable) and developmental state (permanent until transformed through integration events). Specifies depletion archetypes, generative archetypes, and structural connections to the seven Tensegrity Compressive Standards. The seventh connection (Contribution Battery and Regenerative Obligation Standard) names the Hidden Factory Stage D self-reinforcing detection gap: the Regenerative Obligation Standard floor violation depletes the claiming capacity needed to surface it, and voluntary claim-raising cannot break the loop without battery state data showing the co-occurrence pattern.
+
+[Read the full standard](generative/standards/standards-3_0-four-batteries-capacity-0_3_7.md)
+</details>
+
+<details>
+<summary><b>Conflict Transformation Standard</b>: the full architecture</summary>
+
+Specifies the structural conditions under which a coordination system develops and sustains conflict transformation capacity. Five structural invariants: conflict legibility, graduated engagement architecture, proactive disposition enablement, transformation capacity provision, recognition as coordination work. Three operational scales: intra-organizational, inter-organizational, protocol-level. Addresses Ostrom's design principles 4, 5, and 6 at the standards level. Primary empirical grounding: GravityDAO operated for seven years, was universally recognized as necessary, and failed entirely because no existing coordination infrastructure provided a mechanism to recognize conflict transformation as coordination work. The standard addresses that structural gap directly.
+
+[Read the full standard](generative/standards/standards-3_0-conflict-transformation-0_2_10.md)
+</details>
 
 <p align="center">
 <img src="images/standards-frameworks-context-0_1_2.svg" alt="Five Frameworks to the Coordination Structural Integrity Suite: structural logic and two-layer architecture" width="900"/>

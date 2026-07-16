@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 150 920 400" fill="none">
+    <g stroke="#E69086" stroke-width="1.5" opacity="1" fill="none">
+      <path d="M442 526 Q 415 486 391 424"/>
+      <path d="M391 424 Q 530 452 667 460"/>
+      <path d="M667 460 Q 552 502 442 526"/>
+      <path d="M609 301 Q 470 292 333 266"/>
+      <path d="M333 266 Q 442 224 558 200"/>
+      <path d="M558 200 Q 588 252 609 301"/>
+      <path d="M442 526 Q 378 400 333 266"/>
+      <path d="M391 424 Q 470 300 558 200"/>
+      <path d="M667 460 Q 645 380 609 301"/>
+    </g>
+    <g stroke="#8FB3C7" stroke-width="9" stroke-linecap="round" opacity="1">
+      <line x1="442" y1="526" x2="609" y2="301"/>
+      <line x1="391" y1="424" x2="333" y2="266"/>
+      <line x1="667" y1="460" x2="558" y2="200"/>
+    </g>
+    <g fill="#E6EDF3">
+      <circle cx="442" cy="526" r="5.5"/><circle cx="391" cy="424" r="5.5"/><circle cx="667" cy="460" r="5.5"/>
+      <circle cx="609" cy="301" r="5.5"/><circle cx="333" cy="266" r="5.5"/><circle cx="558" cy="200" r="5.5"/>
+    </g>
+    <g stroke="#E6EDF3" stroke-width="1" fill="none">
+      <circle cx="442" cy="526" r="10"/><circle cx="391" cy="424" r="10"/><circle cx="667" cy="460" r="10"/>
+      <circle cx="609" cy="301" r="10"/><circle cx="333" cy="266" r="10"/><circle cx="558" cy="200" r="10"/>
+    </g>
+    <g font-family="ui-monospace, monospace" font-size="15" letter-spacing="2.5">
+      <line x1="620" y1="255" x2="742" y2="232" stroke="#8FB3C7" stroke-width="1"/>
+      <circle cx="596" cy="262" r="2.6" fill="#8FB3C7"/>
+      <text x="752" y="229" fill="#8FB3C7">COMPRESSIVE</text>
+      <text x="752" y="250" fill="#8B949E" font-size="12">THE STRUTS RESIST</text>
+      <line x1="470" y1="375" x2="262" y2="408" stroke="#E69086" stroke-width="1"/>
+      <circle cx="478" cy="373" r="2.6" fill="#E69086"/>
+      <text x="96" y="430" fill="#E69086">GENERATIVE</text>
+      <text x="96" y="451" fill="#8B949E" font-size="12">THE CABLES CONNECT</text>
+    </g>
+
+</svg>
