@@ -231,6 +231,8 @@ Five documents support the standards as a system rather than as individual instr
 
 **[CROSS: Common Reporting Outcome Standards Schema](https://github.com/CrossWalkri/CROSS)** is an independent standard co-released alongside Suite 3.0 under CC0. CROSS specifies what funded interventions are obligated to produce. It is not a Suite document and does not carry the CC BY 4.0 license; it maintains independent publication status so any grants ecosystem can adopt it without adopting the Suite. It is covered in this README because it was developed in parallel with the Suite and shares structural grounding with the Precision-First Design Standard, Adverse-Signal Engagement Principle Core Standard, Information Asymmetry Classification Standard, and Regenerative Obligation Standard, from which it inherits requirements by reference. CROSS is published in its own repository at github.com/CrossWalkri/CROSS.
 
+**[ORE: Origin, Reliability, Exposure](https://github.com/CrossWalkri/ORE)** is an independent companion specification to the CRAFT meta-standard, published under CC0 in its own repository. ORE specifies what an evaluation chain is allowed to assume about the sources feeding it: sources are graded at the ingestion boundary as uncertainty rather than judged as quality, the intake posture is declared and enforced, and every output exposes the grade profile of the sources it rests on. It is not a Suite document; it is noted here because it inherits by reference from the Precision-First Design Standard (every grading basis is held to operational definability) and the Information Asymmetry Classification Standard (the asymmetry taxonomy behind its independence and opacity treatment).
+
 ---
 
 ## How the standards work together
