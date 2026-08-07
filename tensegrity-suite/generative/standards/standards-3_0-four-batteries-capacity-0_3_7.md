@@ -852,7 +852,7 @@ The formation problem in Section 8.1 means that an accurate self-knowledge basel
 
 A standing developmental practice has three minimum structural properties. First, it occurs on a defined cadence independent of whether a visible crisis has occurred: crisis-triggered development addresses the presenting problem without building the baseline from which the problem would be recognized earlier in the next cycle. A standing practice runs before the crisis, which is the only condition under which it can build the self-knowledge baseline the structural conditions in Section 8.2 require. Second, it produces a record: development that generates no observable artifact creates no structural accountability and no way to distinguish genuine practice from a stated intention. Third, it directly addresses the formation problem by providing structural tools that name what Step 01 organizational contexts do to self-assessment accuracy. Without this naming, participants can develop sophisticated vocabulary about appropriate scope while still being unable to apply it to their own situation, because the formation distortion operates below the level at which vocabulary functions.
 
-Praxis specifies the action types for this practice at the implementation layer. This standard specifies that the practice must exist, must be standing rather than reactive, must produce a record, and must include direct address of the formation problem.
+The action types for this practice are specified at the implementation layer. This standard specifies that the practice must exist, must be standing rather than reactive, must produce a record, and must include direct address of the formation problem.
 
 ### 8.6 Tiered Adoption
 

@@ -247,7 +247,7 @@ A rough characterization of which substrates your context supplies and which it 
 
 **Threshold calibration for tier routing.** Each combination specifies which standards to deploy but does not yet specify what adoption tier each standard must reach for the deployment to be reliable at different organizational health states. The tier routing guidance will specify minimum adoption tiers per standard per health state for each named combination.
 
-**Formal assessment instruments.** Rough self-assessment against the Calibration Reference is sufficient to begin. Formal instruments for tensegrity type and battery state assessment will be specified in a future version of this document and implemented in Revelis.
+**Formal assessment instruments.** Rough self-assessment against the Calibration Reference is sufficient to begin. Formal instruments for tensegrity type and battery state assessment will be specified in a future version of this document and implemented in a conformant diagnostic instrument.
 
 ---
 

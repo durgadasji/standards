@@ -119,6 +119,6 @@
   <text x="450" y="688" fill="#f1f5f9" font-size="12" font-weight="bold" font-family="system-ui,sans-serif" text-anchor="middle">Protocol Layer</text>
   <text x="450" y="708" fill="#f1f5f9" font-size="10.5" font-family="system-ui,sans-serif" text-anchor="middle">Makes structural health measurable, comparable, and actionable.</text>
   <text x="450" y="724" fill="#f1f5f9" font-size="10.5" font-family="system-ui,sans-serif" text-anchor="middle">Standards specify conditions; Protocol specifies how to know whether they are present.</text>
-  <text x="450" y="738" fill="#9ca3af" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">→ Revelis (diagnostic) and Praxis (action) surface protocol outputs for governance use</text>
+  <text x="450" y="738" fill="#9ca3af" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">→ diagnostic and action instruments surface protocol outputs for governance use</text>
 
 </svg>
